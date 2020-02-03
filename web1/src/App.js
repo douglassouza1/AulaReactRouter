@@ -1,10 +1,14 @@
 import React from 'react';
-import {Titulo} from './Styles';
+import {Titulo,Textopq} from './Styles';
 
 function App() {
   return (
-    <Titulo> Douglas Souza</Titulo>
-  );
-}
+      <>
+    <Titulo> Douglas </Titulo>
+  
 
+    <Textopq fontSize ={20}> Souza </Textopq>
+</>
+);
+}
 export default App;
